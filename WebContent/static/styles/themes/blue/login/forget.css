@@ -1,0 +1,136 @@
+body{ margin:0; padding:0; background:#FFF; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#000; overflow-y:hidden;}
+
+.FL{ float:left;}
+.FR{ float:right;}
+.Clear{ clear:both;}
+
+img{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.MainTop{
+	width:682px;
+	overflow:hidden;
+	position:absolute;
+	z-index:2;
+	left:50%;
+	top:130px;
+	margin:0 0 0 -341px;
+}
+.ChinaMobile{
+	width:204px;
+	height:79px;
+	background:url(../../../../images/themes/blue/login/ChinaMobile.png) no-repeat;
+}
+.TopTitle{
+	width:478px;
+	height:79px;
+	background:url(../../../../images/themes/blue/main/TopTitle-js.png) no-repeat;
+}
+.MainCenter{
+	width:100%;
+	height:700px;
+	position:relative;
+	z-index:3;
+	left:0;
+	top:210px;
+	background:url(../../../../images/themes/blue/login/MainCenterback.png) repeat-x;
+	padding:30px 0 0;
+}
+.MainCenterBox{
+	width:680px;
+	margin:0 auto;
+}
+.CenterBoxTop{
+	margin:0 0 0 4px;
+	line-height:32px;
+	height:28px;
+	overflow:hidden;
+}
+.Iconreset{
+	width:28px;
+	height:28px;
+	background:url(../../../../images/themes/blue/login/Iconreset.png) no-repeat;
+}
+.Txtstyle1{
+	font-size:20px;
+	color:#484848;
+	padding:0 0 0 5px;
+}
+.TxtColor{
+	color:#fe7200;
+}
+.Radiostyle{
+	vertical-align:middle;
+	margin:-3px 0 0;
+}
+.Inputstyle{
+	width:195px;
+	height:30px;
+	background:url(../../../../images/themes/blue/login/Inputback.jpg) no-repeat;
+	line-height:30px;
+	padding:0 10px;
+	border:none;
+}
+.Txtstyle2{
+	font-size:14px;
+}
+.Linestyle{
+	width:437px;
+	height:1px;
+	border-bottom:1px dotted #ccc;
+	margin:20px 0 0 140px;
+}
+.Btnblue{
+	width:103px;
+	height:30px;
+	background:url(../../../../images/themes/blue/login/Btnback.png) left top no-repeat;
+	line-height:30px;
+	text-align:center;
+	color:#FFF;
+	border:none;
+	cursor:pointer;
+}
+.Btnblue_on{
+	width:103px;
+	height:30px;
+	background:url(../../../../images/themes/blue/login/Btnback.png) left bottom no-repeat;
+	line-height:30px;
+	text-align:center;
+	color:#FFF;
+	border:none;
+	cursor:pointer;
+}
+.Btnyellow{
+	width:103px;
+	height:30px;
+	background:url(../../../../images/themes/blue/login/Btnback.png) top right no-repeat;
+	line-height:30px;
+	text-align:center;
+	color:#000;
+	border:none;
+	cursor:pointer;
+}
+.Btnyellow_on{
+	width:103px;
+	height:30px;
+	background:url(../../../../images/themes/blue/login/Btnback.png) right bottom no-repeat;
+	line-height:30px;
+	text-align:center;
+	color:#000;
+	border:none;
+	cursor:pointer;
+}
+.ForgetFoot{
+	width:100%;
+	height:64px;
+	position:absolute;
+	z-index:3;
+	left:0;
+	bottom:0;
+	text-align:center;
+	line-height:64px;
+	background:#eee;
+	color:#6b6b6b;
+}

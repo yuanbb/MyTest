@@ -1,0 +1,10 @@
+.divLoading{
+	background-image:url('images/loadbar.gif');
+	width:32px;
+	height:32px;
+	top:40%;
+	left:50%;
+	margin-left:-16px;
+	position:absolute;
+		
+}

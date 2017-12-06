@@ -1,0 +1,144 @@
+/* bottomPopup */
+#bottomPopup{
+	position: absolute;
+    width: 100%;
+    height: 401px;
+    bottom: 0px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 2px 2px #666;
+    z-index: 99;
+}
+#bottomPopup .content{
+	overflow:auto;
+	margin:0 5px;
+	height: 251px;
+}
+#bottomPopup .title{
+	position:relative;
+	height:27px;
+	margin:5px;
+}
+#bottomPopup .title h2{
+	font-size:14px;
+	height:27px;
+	line-height:24px;
+	border-bottom:1px solid #A1B4B0;
+}
+#bottomPopup .title div{
+	position:absolute;
+	height:19px;
+	top:2px;
+	right:0;
+}
+#bottomPopup .title a,a.open{
+	float:left;
+	width:21px;
+	height:19px;
+	display:block;
+	margin-left:5px;
+	background:url(img/tool.png) no-repeat;
+}
+a.open{
+	position:absolute;
+	top:10px;
+	left:96%;
+	margin-left:-10px;
+	background-position:0 0;
+}
+a.open:hover{
+	background-position:0 -29px;
+}
+#bottomPopup .title a.min{
+	background-position:-29px 0;
+}
+#bottomPopup .title a.min:hover{
+	background-position:-29px -29px;
+}
+#bottomPopup .title a.max{
+	background-position:-60px 0;
+}
+#bottomPopup .title a.max:hover{
+	background-position:-60px -29px;
+}
+#bottomPopup .title a.revert{
+	background-position:-149px 0;
+	display:none;
+}
+#bottomPopup .title a.revert:hover{
+	background-position:-149px -29px;
+}
+#bottomPopup .title a.close{
+	background-position:-89px 0;
+}
+#bottomPopup .title a.close:hover{
+	background-position:-89px -29px;
+}
+#bottomPopup .resizeBR{
+	position:absolute;
+	width:14px;
+	height:14px;
+	right:0;
+	bottom:0;
+	overflow:hidden;
+	cursor:nw-resize;
+	background:url(img/resize.png) no-repeat;
+}
+#bottomPopup .resizeL,#bottomPopup .resizeT,#bottomPopup .resizeR,#bottomPopup .resizeB,#bottomPopup .resizeLT,#bottomPopup .resizeTR,#bottomPopup .resizeLB{
+	position:absolute;
+	background:#000;
+	overflow:hidden;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+#bottomPopup .resizeL,#bottomPopup .resizeR{
+	top:0;
+	width:5px;
+	height:100%;
+	cursor:w-resize;
+}
+#bottomPopup .resizeR{
+	right:0;
+}
+#bottomPopup .resizeT,#bottomPopup .resizeB{
+	width:100%;
+	height:5px;
+	cursor:n-resize;
+}
+#bottomPopup .resizeT{
+	top:0;
+}
+#bottomPopup .resizeB{
+	bottom:0;
+}
+#bottomPopup .resizeLT,#bottomPopup .resizeTR,#bottomPopup .resizeLB{
+	width:8px;
+	height:8px;
+	background:#FF0;
+}
+#bottomPopup .resizeLT{
+	top:0;
+	left:0;
+	cursor:nw-resize;
+}
+#bottomPopup .resizeTR{
+	top:0;
+	right:0;
+	cursor:ne-resize;
+}
+#bottomPopup .resizeLB{
+	left:0;
+	bottom:0;
+	cursor:ne-resize;
+}
+#content_title_div{
+	height: 40px;
+}
+#content_content_div{
+	height: 500px;
+}
+.buttom_content_iframe{
+	float: left;
+	width: 48%;
+}
+

@@ -1,0 +1,793 @@
+body{ margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000;}
+
+.FL{ float:left;}
+.FR{ float:right;}
+.Clear{ clear:both;}
+
+.SidebarLeft{
+}
+.Toptag_left{
+	width:8px;
+	height:33px;
+	background:url(../../images/default/indiMng/Toptag_left.png) no-repeat;
+}
+.Toptag_center{
+	width:auto;
+	height:33px;
+	background:url(../../images/default/indiMng/Toptag_center.png) repeat-x;
+	line-height:30px;
+}
+.Toptag_right{
+	width:8px;
+	height:33px;
+	background:url(../../images/default/indiMng/Toptag_right.png) no-repeat;
+}
+.Toptag_icon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_icon.png) no-repeat;
+	margin:4px 4px 0 0;
+	display:inline-block;
+}
+.Toptag_Seticon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_Seticon_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_Refreshicon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) -22px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_Refreshicon_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) -22px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_Searchicon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) -44px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_Searchicon_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) -44px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_Openupicon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) -66px top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_Openupicon_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) -66px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_Drawdownicon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_Drawdownicon_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_righticons.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Toptag_center a{
+	color:#FFF;
+}
+.TxtStyle1{
+	color:#FFF;
+}
+.TxtStyle2{
+	margin:0 5px;
+	line-height:30px;
+	display:inline-block;
+}
+.TxtStyle3{
+	margin:0 5px;
+	line-height:30px;
+	display:inline-block;
+	font-size:22px;
+}
+.TxtStyle4{
+	color:#969696;
+}
+.Contentbox{
+	border-left:1px solid #909090;
+	border-right:1px solid #909090;
+	background:#fff;
+}
+.ContentFoot1{
+	width:260px;
+	height:5px;
+	background:url(../../images/default/indiMng/ContentFoot1.png) no-repeat;
+}
+.Listbox{
+	padding:5px 3px 5px 5px;
+	border:1px solid #bed9f4;
+	background:url(../../images/default/indiMng/Listboxback.jpg) repeat-x;
+	line-height:17px;
+}
+.Listbox_active{
+	padding:5px 3px 5px 5px;
+	border:3px solid #6aa3dd;
+	background:url(../../images/default/indiMng/Listboxback.jpg) repeat-x;
+	line-height:17px;
+}
+.Listbox a{
+	color:#000;
+	text-decoration:none;
+}
+.Listbox_active a{
+	color:#000;
+	text-decoration:none;
+}
+.Listbox td a{
+	color:#ff6c00;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.Listbox_active td a{
+	color:#ff6c00;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.Noticeicon{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/Icons.png) left top no-repeat;
+}
+.Fileicon{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/Icons.png) -20px top no-repeat;
+}
+.Listbox_title{
+	line-height:20px;
+}
+.Listbox_foot{
+	margin:0 0 0 4px;
+	line-height:20px;
+	color:#84898a;
+}
+.ContentFoot2{
+	width:290px;
+	height:5px;
+	background:url(../../images/default/indiMng/ContentFoot2.png) no-repeat;
+}
+.ContentLeftMenu{
+	width:33px;
+	height:100%;
+	background:url(../../images/default/indiMng/ContentLeftMenu.jpg) repeat-y;
+	overflow:hidden;
+}
+.ContentLeftMenu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.ContentLeftMenu ul li{
+	
+}
+.ContentLeftMenu ul li a{
+	width:31px;
+	
+	display:block;
+	color:#000;
+	text-decoration:none;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+.ContentLeftMenu ul li a:hover{
+	width:31px;
+	
+	display:block;
+	color:#000;
+	font-weight:bold;
+	background:#ffffc0;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+.SpanStyle1{
+	padding:13px 0 0;
+}
+.SpanStyle2{
+	padding:8px 0 0;
+}
+.ContentLeftMenu_foot{
+	width:33px;
+	height:25px;
+	background:url(../../images/default/indiMng/ContentLeftMenu_foot.png) no-repeat;
+}
+.Arrow_up{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/Arrow_updown.png) left top no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.Arrow_down{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/Arrow_updown.png) right top no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.Incre_rate{
+	width:15px;
+	height:15px;
+	background:url(../../images/default/indiMng/businessoverview80.png) right top no-repeat;
+	margin:0 15px 0;
+	display:inline-block;
+}
+
+.Incre_rate1{
+	width:10px;
+	height:10px;
+	background:url(../../images/default/indiMng/businessoverview88.png) right top no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+
+.Incre_rate2{
+	width:10px;
+	height:10px;
+	background:url(../../images/default/indiMng/businessoverview92.png) right top no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+
+.Incre_rate3{
+	width:10px;
+	height:10px;
+	background:url(../../images/default/indiMng/businessoverview96.png) right top no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+
+.lean_Arrow_up_blue{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/arrow_t_r_16.png) no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.lean_Arrow_down_blue{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/arrow_b_r_16.png) no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.lean_Arrow_up_red{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/arrow_t_r_w_16.png) no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.lean_Arrow_down_red{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/arrow_b_r_w16.png) no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.Bubbleicon1{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/Icons.png) -40px top no-repeat;
+	margin:1px 1px 0 0;
+	display:inline-block;
+}
+.Bubbleicon2{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/indiMng/Icons.png) right top no-repeat;
+	margin:1px 1px 0 0;
+	display:inline-block;
+}
+
+.Timeselect_left{
+	width:8px;
+	height:34px;
+	background:url(../../images/default/indiMng/Timeselect_left.png) no-repeat;
+}
+.Timeselect_center{
+	width:auto;
+	height:34px;
+	background:url(../../images/default/indiMng/Timeselect_center.png) repeat-x;
+	line-height:34px;
+}
+.Timeselect_right{
+	width:8px;
+	height:34px;
+	background:url(../../images/default/indiMng/Timeselect_right.png) no-repeat;
+}
+.Toptabs_left{
+	width:8px;
+	height:33px;
+	background:url(../../images/default/indiMng/Toptabs_left.png) no-repeat;
+}
+.Toptabs_center{
+	height:33px;
+	line-height:33px;
+	background:url(../../images/default/indiMng/Toptabs_center.png) repeat-x;
+}
+.Toptabs_right{
+	width:8px;
+	height:33px;
+	background:url(../../images/default/indiMng/Toptabs_right.png) no-repeat;
+}
+.Tab_left{
+	width:8px;
+	height:33px;
+	background:url(../../images/default/indiMng/Tab_left.png) no-repeat;
+}
+.Tab_center{
+	height:33px;
+	background:url(../../images/default/indiMng/Tab_center.png) repeat-x;
+	color:#135685;
+	padding:0 8px;
+}
+.Tab_right{
+	width:35px;
+	height:33px;
+	background:url(../../images/default/indiMng/Tab_right.png) no-repeat;
+}
+.Toptabs_center a{
+	text-decoration:none;
+}
+.Content_left{
+	width:5px;
+	background:url(../../images/default/indiMng/Content_left.png) repeat-y;
+}
+.Content_center{
+	background:#FFF;
+}
+.Content_right{
+	width:5px;
+	background:url(../../images/default/indiMng/Content_right.png) repeat-y;
+}
+.ContentFoot_left{
+	width:5px;
+	height:5px;
+	background:url(../../images/default/indiMng/ContentFoot_left.png) no-repeat;
+}
+.ContentFoot_center{
+	height:5px;
+	background:url(../../images/default/indiMng/ContentFoot_center.png) repeat-x;
+}
+.ContentFoot_right{
+	width:5px;
+	height:5px;
+	background:url(../../images/default/indiMng/ContentFoot_right.png) no-repeat;
+}
+.BtnOK{
+	width:73px;
+	height:21px;
+	background:url(../../images/default/indiMng/BtnOK.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.BtnOK_on{
+	width:73px;
+	height:21px;
+	background:url(../../images/default/indiMng/BtnOK.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.SelectStyle{
+	border:1px solid #ccc;
+	padding:2px;
+	height:21px;
+	line-height:27px;
+	margin:0;
+}
+.Radio_box{
+	margin:0 10px 0 0;
+	display:inline-block;
+}
+.RadioStyle{
+	vertical-align:middle;
+	margin:-3px 3px 0 5px;
+}
+.Closewindow{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Closewindow.png) no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 2px 0 0;
+}
+.Noicon{
+	width:16px;
+	height:16px;
+	background:url(../../images/default/indiMng/GeometricICONS.png) left top no-repeat;
+}
+.Triangleicon{
+	width:16px;
+	height:16px;
+	background:url(../../images/default/indiMng/GeometricICONS.png) -16px top no-repeat;
+}
+.Circleicon{
+	width:16px;
+	height:16px;
+	background:url(../../images/default/indiMng/GeometricICONS.png) right top no-repeat;
+}
+.Spanstyle3{
+	line-height:17px;
+}
+.Formbox{
+	border-top:1px solid #bbb;
+	border-left:1px solid #bbb;
+}
+.Formbox th{
+	height:24px;
+	line-height:24px;
+	background:url(../../images/default/indiMng/Formbox_th.jpg) repeat-x;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:0 5px;
+}
+.Formbox td{
+	padding:5px;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.Formbox td a{
+	color:#06F;
+	text-decoration:none;
+}
+.Formbox td a:hover{
+	color:#ff6c00;
+}
+.Checkbox_box{
+	margin:0 0 10px 0;
+}
+.CheckboxStyle{
+	vertical-align:middle;
+	margin:-3px 3px 0 5px;
+}
+
+.MapLabels{
+	padding:0 2px 0 2px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	background:#FFF;
+	margin:10px 0 0;
+}
+.MenuListbox{
+	width:254px;
+}
+.MenuListrow1{
+	width:255px;
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 10px;
+}
+.MenuListrow2{
+	width:239px;
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 26px;
+}
+.Openup{
+	width:11px;
+	height:11px;
+	background:url(../../images/default/indiMng/Open_Back.png) left top no-repeat;
+	margin:6px 5px 0 0;
+	display:inline-block;
+}
+.Drawback{
+	width:11px;
+	height:11px;
+	background:url(../../images/default/indiMng/Open_Back.png) left bottom no-repeat;
+	margin:6px 5px 0 0;
+	display:inline-block;
+}
+.TopSearch{
+	padding:5px;
+	background:#f5f5f5;
+}
+.InputStyle1{
+	width:200px;
+	height:21px;
+	border:1px solid #ccc;
+	line-height:21px;
+	padding:0 4px;
+}
+.SearchBtn{
+	width:32px;
+	height:23px;
+	background:url(../../images/default/indiMng/SearchBtn.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.SearchBtn_on{
+	width:32px;
+	height:23px;
+	background:url(../../images/default/indiMng/SearchBtn.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Formicon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_othersicons.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Formicon_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_othersicons.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Charticon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_othersicons.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Charticon_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_othersicons.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Lineicon {
+    background: url("../../images/default/indiMng/anychartLine.png") no-repeat scroll right top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.Lineicon_on {
+    background: url("../../images/default/indiMng/anychartLine.png") no-repeat scroll right bottom transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.Contentbox p{
+	padding:0;
+	margin:0;
+}
+
+.Formbox1{
+	border-top:1px solid #bbb;
+	border-left:1px solid #bbb;
+}
+.Formbox1 th{
+	height:24px;
+	line-height:24px;
+	background:url(../../images/default/indiMng/Formbox_th.jpg) repeat-x;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:0 5px;
+}
+.Formbox1 td{
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	text-align:center;
+}
+.Formbox1 td a{
+	color:#06F;
+	text-decoration:none;
+}
+.Formbox1 td a:hover{
+	color:#ff6c00;
+}
+
+.BtnBack_blue{
+	width:77px;
+	height:28px;
+	background:url(../../images/default/indiMng/BtnBack_blue.png) left top;
+	color:#0b416f;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_blue_on{
+	width:77px;
+	height:28px;
+	background:url(../../images/default/indiMng/BtnBack_blue.png) left bottom;
+	color:#0b416f;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_blue_min{
+	width:45px;
+	height:28px;
+	background:url(../../images/default/indiMng/BtnBack_blue_min.png) left top;
+	color:#0b416f;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_blue_min_on{
+	width:45px;
+	height:28px;
+	background:url(../../images/default/indiMng/BtnBack_blue_min.png) left bottom;
+	color:#0b416f;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_blue_s{
+	width:73px;
+	height:21px;
+	background:url(../../images/default/indiMng/BtnBack_blue_s.png) left top;
+	color:#0b416f;
+	text-align:center;
+	line-height:21px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_blue_s_on{
+	width:73px;
+	height:21px;
+	background:url(../../images/default/indiMng/BtnBack_blue_s.png) left bottom;
+	color:#0b416f;
+	text-align:center;
+	line-height:21px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_gray{
+	width:98px;
+	height:26px;
+	background:url(../../images/default/indiMng/BtnBack_gray.png) left top;
+	text-align:center;
+	line-height:26px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_gray_on{
+	width:98px;
+	height:26px;
+	background:url(../../images/default/indiMng/BtnBack_gray.png) left bottom;
+	text-align:center;
+	line-height:26px;
+	cursor:pointer;
+	border:none;
+}
+
+
+.ChartIcon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/ChartIcon_01.png) no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+.GridIcon{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/GridIcon_01.png) no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Baricon {
+    background: url("../../images/default/indiMng/anychartBar.png") no-repeat scroll right top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.Baricon_on {
+    background: url("../../images/default/indiMng/anychartBar.png") no-repeat scroll right bottom transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.searchTicon {
+	background: url("../../images/default/indiMng/search_t.png") no-repeat scroll left top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.searchTicon_on {
+	background: url("../../images/default/indiMng/search_t.png") no-repeat scroll right top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.searchTicon_blue {
+	background: url("../../images/default/indiMng/search_blue.png") no-repeat scroll  top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.searchTicon_blue_on {
+	background: url("../../images/default/indiMng/search_blue.png") no-repeat scroll  bottom transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.Toptag_getDownload{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/download.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_getDownload_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/download.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_upload{
+	width:22px;
+	height:22px;
+	background:url(../../images/themes_js/upload.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_upload_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/themes_js/upload.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.AiteIcon {
+    background: url("../../images/default/indiMng/aite.png") no-repeat;
+    border: medium none;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+}

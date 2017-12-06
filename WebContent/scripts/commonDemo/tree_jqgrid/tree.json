@@ -1,0 +1,5 @@
+[  
+    {"id":0,"username":"呵呵","level":0,"address":"上海","isLeaf":false,"age":26,"expanded":true,"password":"123"},  
+    {"id":1,"username":"哈哈","level":1,"address":"美国","isLeaf":false,"age":27,"parent":0,"expanded":true,"password":"123"},  
+    {"id":2,"username":"嘿嘿","level":2,"address":"日本","isLeaf":true,"age":25,"parent":1,"expanded":true,"password":"123"}  
+]  

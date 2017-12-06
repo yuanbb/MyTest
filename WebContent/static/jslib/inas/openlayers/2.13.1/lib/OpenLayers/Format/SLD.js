@@ -1,0 +1,1 @@
+OpenLayers.Format.SLD=OpenLayers.Class(OpenLayers.Format.XML.VersionedOGC,{profile:null,defaultVersion:"1.0.0",stringifyOutput:true,namedLayersAsArray:false,CLASS_NAME:"OpenLayers.Format.SLD"});

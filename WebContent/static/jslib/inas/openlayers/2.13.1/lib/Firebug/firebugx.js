@@ -1,0 +1,1 @@
+(function(){if(!window.console||!console.firebug){var b=["log","debug","info","warn","error","assert","dir","dirxml","group","groupEnd","time","timeEnd","count","trace","profile","profileEnd"];window.console={};for(var a=0;a<b.length;++a){window.console[b[a]]=function(){}}}})();

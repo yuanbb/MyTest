@@ -1,0 +1,273 @@
+select.selectbg{height:23px; border:1px #ccc solid; padding:2px; margin:0 5px 0;}
+
+.ico_num1{display:inline-block;text-align:center;width:18px;height:18px;line-height:18px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat 0 0;}
+.ico_num2{display:inline-block;text-align:center;width:18px;height:18px;line-height:18px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -23px 0;}
+.ico_num3{display:inline-block;text-align:center;width:18px;height:18px;line-height:18px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -46px 0;}
+.ico_num4{display:inline-block;text-align:center;width:18px;height:18px;line-height:18px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -69px 0;}
+.ico_num5{display:inline-block;text-align:center;width:18px;height:18px;line-height:18px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -92px 0;}
+.ico_num01{display:inline-block;text-align:center;width:15px;height:15px;line-height:17px;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -115px 0;}
+
+.ico_up{display:inline-block;text-align:center;width:12px;height:14px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -4px -28px;}
+.ico_down{display:inline-block;text-align:center;width:12px;height:14px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -25px -28px;}
+
+.ico_up2{display:inline-block;text-align:center;width:12px;height:14px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -50px -28px;}
+.ico_down2{display:inline-block;text-align:center;width:12px;height:14px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -73px -28px;}
+
+.ico_set2{display:inline-block;text-align:center;width:16px;height:16px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -118px -27px; margin-right:10px;}
+
+
+
+.so_search{display:inline-block;width:32px;height:26px;line-height:26px;padding-left:30px; background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat 0 -75px;color:#fff}
+.so_search:hover{background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -67px -75px;color:#fff; cursor:pointer}
+.so_search2{display:inline-block;width:32px;height:26px;line-height:26px;padding-left:30px;vertical-align:middle;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -67px -75px;color:#fff}
+.so_search2:hover{background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat 0 -75px;color:#fff; cursor:pointer}
+
+.so_refresh{width:57px;padding-left:20px;background:url(../../../../images/common/icons/refresh.png) no-repeat;background-color:#fff;}
+
+/*--提交按钮--*/
+.btn_01{
+	display:inline-block;
+	height:26px;
+	width:62px;
+	line-height:26px;
+	font-size:14px;
+	cursor:pointer;
+	border:none;
+	color:#fff;
+	vertical-align:middle;
+	text-align:center;
+	margin:0 3px;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat left -158px;
+}
+.btn_01:hover{
+	color:#fff;
+	text-decoration:none;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat 0 -189px;
+}
+/*--表格样式--*/
+.table_data{
+	display:table;
+	border:none;
+	margin:0 auto;
+	width:100%;
+	font-size:12px;
+	border-collapse:collapse
+}
+.table_data td{
+	padding:0 10px;
+	line-height:28px;
+	empty-cells:show;
+	text-align:left;
+	background:#fafafa;
+	border-bottom:1px solid #eee;
+}
+.table_data th{
+	color:#333;
+	white-space:nowrap;
+	text-align:center;
+	line-height:36px;
+	empty-cells:show;
+	padding:0px;
+	background:#f5f5f5;
+	border-bottom:1px solid #e5e5e5;
+}
+.table_data .tab td{
+	background:#fff
+}
+.table_data .hover td{
+	background:#fffdec
+}
+
+.table_data2{
+	display:table;
+	border:none;
+	margin:0 auto;
+	width:100%;
+	font-size:12px;
+	border:1px solid #d9d9d9;
+	border-collapse:collapse
+}
+.table_data2 th,.table_data2 td{
+	padding-left:20px;
+	line-height:24px;
+	empty-cells:show;
+	text-align:left;
+	border-bottom:1px dotted #999;
+	background:#fff
+}
+.table_data2 th,.table_data2 .align_left{
+	text-align:left;
+	padding-left:20px;
+}
+.table_data2 th{
+	color:#333;
+	white-space:nowrap;
+	text-align:left;
+	line-height:24px;
+	padding-left:20px;
+	background:#f5f5f5
+}
+.table_data2 .tab td{
+	background:#f5f5f5
+}
+.table_data2 tr:hover{
+	background:#eff7ff
+}
+.table_data2 .num{
+	width:50px; display:inline-block
+}
+
+.table_data3{
+}
+.table_data3 th{
+	border-bottom:1px solid #eee;
+	line-height:36px;
+	background:#f5f5f5
+}
+.table_data3 td{
+	border-bottom:1px solid #eee;
+	height:36px;
+}
+
+
+.table_data4{
+}
+.table_data4 td{
+	border-bottom:1px solid #eee;
+	height:23px;
+	padding-left:6px;
+}
+.table_data4 td.td1{
+	text-align:left
+}
+
+
+.ico_tag{display:inline-block;text-align:center;width:17px;padding-right:2px;height:17px;background:url(../../../../images/themes_js/blue/mobileETE/icon.png) no-repeat -138px -76px;margin:6px 5px 0 0;color:#fffc00;line-height:17px; font-weight:bold;vertical-align:top;}
+
+.Indicatorbox{
+	height:140px;
+	background:#f7f7f7;
+	font-size:14px;
+	margin:5px 0 0;
+}
+.Indicatorbox td{
+	padding:5px;
+	line-height:22px;
+}
+.TDdotted{
+	border-left:1px dotted #bbb;
+}
+.Arrow_down{
+	width:9px;
+	height:9px;
+	background:url(../../../../images/themes_js/blue/mobileETE/Arrows.png) -8px -6px no-repeat;
+	display:inline-block;
+}
+.Formbox{
+	border:1px solid #ddd;
+	margin:4px 0 0;
+}
+.Formbox td{
+	padding:6px 3px 6px 10px;
+}
+.Formtitle2{
+	background:#f5f5f5;
+	border-bottom:1px solid #e5e5e5;
+}
+.Formtitle3{
+	background:#f5f5f5;
+}
+.TDstyle{
+	border-bottom:1px solid #d5d5d5;
+}
+.Chartimg_blue{
+	width:23px;
+	height:8px;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) -4px -51px no-repeat;
+	position:relative;
+	left:5px;
+	z-index:1;
+	display:inline-block;
+}
+.Chartimg_red{
+	width:23px;
+	height:8px;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) -35px -51px no-repeat;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+.Arrow_prev{
+	width:11px;
+	height:16px;
+	background:url(../../../../images/themes_js/blue/mobileETE/Arrows.png) -20px -77px no-repeat;
+	display:block;
+}
+.Arrow_prev:hover{
+	width:11px;
+	height:16px;
+	background:url(../../../../images/themes_js/blue/mobileETE/Arrows.png) -37px -77px no-repeat;
+	display:block;
+}
+.Arrow_next{
+	width:11px;
+	height:16px;
+	background:url(../../../../images/themes_js/blue/mobileETE/Arrows.png) -70px -77px no-repeat;
+	display:block;
+}
+.Arrow_next:hover{
+	width:11px;
+	height:16px;
+	background:url(../../../../images/themes_js/blue/mobileETE/Arrows.png) -54px -77px no-repeat;
+	display:block;
+}
+.Chartbutton{
+	width:20px;
+	height:20px;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) -92px -23px no-repeat;
+	display:block;
+}
+.Chartbutton:hover{
+	width:20px;
+	height:20px;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) -116px -23px no-repeat;
+	display:block;
+}
+.Refreshbutton{
+	width:26px;
+	height:26px;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) -69px -132px no-repeat;
+	display:block;
+}
+.Refreshbutton:hover{
+	width:26px;
+	height:26px;
+	background:url(../../../../images/themes_js/blue/mobileETE/icon.png) -109px -132px no-repeat;
+	display:block;
+}
+.sideleft_menu{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.sideleft_menu li{
+	line-height:30px;
+	border-bottom:1px dotted #7f7f7f;
+}
+.sideleft_menu a{
+	height:30px;
+	color:#383838;
+	text-decoration:none;
+	padding:0 6px;
+	display:block;
+}
+.sideleft_menu a:hover{
+	height:30px;
+	color:#383838;
+	background:#f2f2f2;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0 6px;
+	display:block;
+}

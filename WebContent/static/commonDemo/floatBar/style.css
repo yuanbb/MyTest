@@ -1,0 +1,36 @@
+.floatbarW{
+	right: 5px;
+	bottom: 5px;
+	z-index: 99;
+	position:fixed;
+}
+.floatbar{
+	 background-color: #d2d9e1;
+	 width: 48px;
+	 height: 48px; 
+	 cursor: pointer;
+	 margin-top: 5px;
+	 text-align: center;
+     padding-top: 13px;
+}
+.floatbar:hover{
+	 background-color: #5cbdf4;
+}
+.floatbar div{
+        width: 30px;
+        height: 30px;
+	    margin: -4px 10px 0;
+}
+
+.floatbarW .floatbar .content{
+	      font-size: 18px;
+	      color: #fff;
+}
+.toolbar_user_drafts{
+     background: url(images/toolbar_user_drafts.png) 
+     no-repeat;	
+}
+.toolbar_top{
+     background: url(images/toolbar_top.png) 
+     no-repeat;	
+}

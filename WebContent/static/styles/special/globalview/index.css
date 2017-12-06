@@ -1,0 +1,158 @@
+.leftlist_date li,.leftlist_link li{
+	width:230px;
+}
+.leftlist_date li a{
+	height:34px;
+	line-height:34px;
+	margin:7px 0;
+	background-color:#f0f9ff;
+	padding:0 20px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	display:block;
+}
+.leftlist_date li a:hover{
+	background-color:#e4f4ff;
+}
+.leftlist_date li a font{
+	font-size:14px;
+	color:#000;
+}
+.leftlist_link li a{
+	height:24px;
+	line-height:24px;
+	margin:7px 0;
+	background-color:#f2f2f2;
+	padding:0 20px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	display:block;
+}
+.leftlist_link li a:hover{
+	background-color:#e7e7e7;
+}
+.network_indicator{
+	padding:5px 0;
+}
+.network_indicator td{
+	border-right:1px dotted #d5d5d5;
+	padding:0 10px;
+	line-height:30px;
+}
+.network_indicator td b{
+	font-size:15px;
+}
+.network_indicator td h1{
+	display:inline-block;
+	font-size:28px;
+}
+.key_indicator_list{
+	margin:0;
+	padding:0;
+}
+.key_indicator_list td{
+	padding:6px 8px;
+}
+.key_indicator_list a{
+}
+.key_indicator{
+	height:32px;
+	line-height:32px;
+	background-color:#edf2f8;
+	position:relative;
+	z-index:2;
+	white-space:nowrap;
+}
+.key_indicator_n{
+	width:100px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background-color:#a4d2fc;
+	color:#fff;
+	font-size:16px;
+	margin:0 10px 0 0;
+	display:inline-block;
+}
+.key_indicator_n font{
+	font-size:10px;
+	display:inline-block;
+	padding:0 0 0 1px;
+}
+.key_indicator span{
+	overflow:hidden;
+	padding:0 15px 0 5px;
+}
+.key_indicator_arrow{
+	width:7px;
+	height:7px;
+	background:url(../../../images/common/key_indicator_arrow.png) no-repeat;
+	position:absolute;
+	right:0;
+	bottom:0;
+	z-index:2;
+}
+.key_indicator_infor{
+	padding:10px;
+	background:url(../../../images/common/key_indicator_infor.png) repeat;
+	border-radius:0 0 4px 4px;
+}
+.key_indicator_infor td{
+	padding:5px;
+}
+.form_table2_title{
+	background-color:#f0f9ff;
+}
+.form_td2{
+	border-bottom:1px dotted #85c3fc;
+}
+.network_health{
+	margin-top:10px;
+}
+.network_health td{
+	color:#fff;
+	text-align:center;
+	padding:10px 0;
+	border-radius:2px;
+}
+.network_health_icon01{
+	width:45px;
+	height:45px;
+	background:url(../../../images/special/globalview/network_health_icons.png) left top no-repeat;
+	margin:0 auto;
+}
+.network_health_icon02{
+	width:45px;
+	height:45px;
+	background:url(../../../images/special/globalview/network_health_icons.png) -45px top no-repeat;
+	margin:0 auto;
+}
+.network_health_icon03{
+	width:45px;
+	height:45px;
+	background:url(../../../images/special/globalview/network_health_icons.png) -90px top no-repeat;
+	margin:0 auto;
+}
+.network_health_icon04{
+	width:45px;
+	height:45px;
+	background:url(../../../images/special/globalview/network_health_icons.png) -135px top no-repeat;
+	margin:0 auto;
+}
+.network_health_icon05{
+	width:45px;
+	height:45px;
+	background:url(../../../images/special/globalview/network_health_icons.png) -180px top no-repeat;
+	margin:0 auto;
+}
+.short_list{
+	display:block;
+}
+.short_list:hover{
+	background-color:#eff9fe;
+}
+.short_list td{
+	padding:8px 20px;
+}

@@ -1,0 +1,1 @@
+OpenLayers.Format.WMSDescribeLayer=OpenLayers.Class(OpenLayers.Format.XML.VersionedOGC,{defaultVersion:"1.1.1",CLASS_NAME:"OpenLayers.Format.WMSDescribeLayer"});

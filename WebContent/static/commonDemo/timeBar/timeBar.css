@@ -1,0 +1,84 @@
+.bars_10{
+font-size:14px;
+line-height:20px;
+float:left
+}
+.scale{
+width:430px;
+height:4px;
+float:left;
+margin:8px 15px auto 10px;
+position:relative;
+background:url(images/u19_line.png) 0 0 no-repeat
+}
+.hideScale1{
+width:0;
+position:absolute;
+left:0;
+height:4px;
+bottom:0;
+background:url(images/u53_line.png) 0 0 no-repeat
+}
+.hideScale2{
+width:0;
+position:absolute;
+right:0;
+height:4px;
+bottom:0;
+background:url(images/u53_line.png) 0 0 no-repeat
+}
+#btnLeft{
+width:10px;
+height:10px;
+position:absolute;
+left:-2px;
+top:-3px;
+cursor:pointer;
+background:url(images/u60.png) no-repeat
+}
+#btnRight{
+width:10px;
+height:10px;
+position:absolute;
+right:-2px;
+top:-3px;
+cursor:pointer;
+z-index:2;
+background:url(images/u60.png) no-repeat
+}
+.detailed{
+width:200px;
+min-height:570px;
+background:#fdfdfd;
+opacity:.7;
+filter:alpha(opacity:70);
+position:absolute;
+right:0;
+top:0
+}
+.close{
+width:22px;
+height:20px;
+position:absolute;
+right:4px;
+top:4px;
+z-index:5;
+opacity:1;
+filter:alpha(opacity:1);
+background:url(images/close.png)
+}
+.con_top_list i{
+display:inline-block;
+width:36px;
+height:36px;
+margin:0 5px 0 10px;
+vertical-align:middle;
+background:url(images/ico_weixin.png) no-repeat
+}
+#cellListJqGrid i{
+display:inline-block;
+width:36px;
+height:36px;
+margin:0 5px 0 10px;
+vertical-align:middle
+}

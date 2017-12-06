@@ -1,0 +1,15 @@
+.Specific{
+}
+.Specific td{
+	padding:10px 0;
+}
+.Specific_bg{
+	width:238px;
+	height:165px;
+	padding:1px 0 0 2px;
+	background:url(../../images/themes_js/specific/specific_bg.png) no-repeat;
+}
+.Specific_name{
+	width:232px;
+	text-align:center;
+}

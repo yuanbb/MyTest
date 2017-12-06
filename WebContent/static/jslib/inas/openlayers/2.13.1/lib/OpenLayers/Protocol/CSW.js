@@ -1,0 +1,1 @@
+OpenLayers.Protocol.CSW=function(b){b=OpenLayers.Util.applyDefaults(b,OpenLayers.Protocol.CSW.DEFAULTS);var a=OpenLayers.Protocol.CSW["v"+b.version.replace(/\./g,"_")];if(!a){throw"Unsupported CSW version: "+b.version}return new a(b)};OpenLayers.Protocol.CSW.DEFAULTS={version:"2.0.2"};

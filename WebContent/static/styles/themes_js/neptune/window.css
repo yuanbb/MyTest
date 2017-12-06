@@ -1,0 +1,148 @@
+.BoxStyle{
+	width:94%;
+	position:relative;
+	z-index:3;
+	border:1px solid #909090;
+	padding:0 5px;
+}
+.BoxTitle{
+	width:65px;
+	text-align:center;
+	font-weight:bold;
+	background:#FFF;
+	position:relative;
+	left:5px;
+	top:-6px;
+	z-index:4;
+}
+.CheckboxStyle1{
+	vertical-align:middle;
+	margin:-1px 3px 0 5px;
+}
+.SetList{
+	margin:5px 0 0 6px;
+}
+.SetList ul{
+	margin:5px 0 0 20px;
+	padding:0;
+	list-style:none;
+}
+.SetList ul li{
+	padding:3px 0;
+}
+.SelectList{
+	margin:5px 0 0 6px;
+}
+.SelectList ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.SelectList ul li{
+	padding:3px 0;
+}
+.Turn_right{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/neptune/TurnLeftRight.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_right_on{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/neptune/TurnLeftRight.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_left{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/neptune/TurnLeftRight.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_left_on{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/neptune/TurnLeftRight.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_up{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) -24px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_up_on{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) -24px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_down{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) -48px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_down_on{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) -48px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_top{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_top_on{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_bottom{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_bottom_on{
+	width:24px;
+	height:24px;
+	background:url(../../../images/themes_js/neptune/TurnUpDown.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.SettingList{
+	margin:5px 0 0;
+}
+.SettingList a{
+	height:24px;
+	line-height:24px;
+	color:#000;
+	text-decoration:none;
+	display:block;
+	padding:0 0 0 12px;
+	margin:0;
+}
+.SettingList a:hover{
+	height:24px;
+	line-height:24px;
+	display:block;
+	background:#e9f5ff;
+	padding:0 0 0 12px;
+	margin:0;
+}
+

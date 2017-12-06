@@ -1,0 +1,160 @@
+.login_box{
+	width:100%;
+	height:336px;
+	background-color:#dff4ff;
+}
+.login_content{
+	width:100%;
+	height:320px;
+	background:url(../../../images/special/login/login/login_content.jpg) repeat;
+	position:relative;
+	top:8px;
+	z-index:1;
+}
+.login_content_left{
+	width:370px;
+	height:320px;
+	background:url(../../../images/special/login/login/login_content_left.jpg) no-repeat;
+}
+.login_content_right{
+	width:370px;
+	height:320px;
+	background:url(../../../images/special/login/login/login_content_right.jpg) no-repeat;
+}
+.login_main{
+	width:1002px;
+	height:320px;
+	margin:0 auto;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin:0 0 0 -501px;
+	z-index:3;
+}
+.login_title{
+	width:554px;
+	height:53px;
+	position:absolute;
+	left:0;
+	top:-68px;
+	z-index:3;
+}
+.login_top_right{
+	color:#aaa;
+	position:absolute;
+	right:0;
+	top:-60px;
+	z-index:3;
+	text-align:right;
+	line-height:22px;
+}
+.login_banner{
+	width:586px;
+	height:266px;
+	background:url(../../../images/special/login/login/login_banner.png) no-repeat;
+	position:absolute;
+	left:80px;
+	bottom:0px;
+	z-index:3;
+}
+.login_main_right{
+	width:340px;
+	position:absolute;
+	top:30px;
+	right:20px;
+	z-index:3;
+}
+.login_input{
+	width:210px;
+	height:43px;
+	line-height:43px;
+	padding:0 0 0 45px;
+	border:none;
+	border-radius:4px;
+	background-color:#fff;
+	margin:25px 0 0 45px;
+}
+.password_forget{
+	width:257px;
+	margin:15px 0 0 45px;
+}
+.password_forget a{
+	float:right;
+	text-decoration:none;
+	color:#fff;
+}
+.password_forget a:hover{
+	color:#f5f5f5;
+}
+.login_btn_container{
+	width:257px;
+	margin:15px 0 0 45px;
+}
+.login_btn1{
+	width:116px;
+	height:37px;
+	background:url(../../../images/special/login/login/login_btn1.png) left top no-repeat;
+	text-align:center;
+	line-height:34px;
+	font-size:16px;
+	color:#fff;
+}
+.login_btn1_over{
+	width:116px;
+	height:37px;
+	background:url(../../../images/special/login/login/login_btn1.png) left bottom no-repeat;
+	text-align:center;
+	line-height:34px;
+	font-size:16px;
+	color:#fff;
+}
+.login_btn2{
+	width:116px;
+	height:37px;
+	background:url(../../../images/special/login/login/login_btn2.png) left top no-repeat;
+	text-align:center;
+	line-height:34px;
+	font-size:16px;
+	color:#606060;
+}
+.login_btn2_over{
+	width:116px;
+	height:37px;
+	background:url(../../../images/special/login/login/login_btn2.png) left bottom no-repeat;
+	text-align:center;
+	line-height:34px;
+	font-size:16px;
+	color:#606060;
+}
+.icon_user{
+	width:24px;
+	height:24px;
+	background:url(../../../images/special/login/login/icon_user.png) no-repeat;
+}
+.icon_lock{
+	width:24px;
+	height:24px;
+	background:url(../../../images/special/login/login/icon_lock.png) no-repeat;
+}
+.login_bottom{
+	width:100%;
+	position:absolute;
+	left:0;
+	bottom:-50px;
+	color:#aaa;
+	font-size:12px;
+}
+.login_bottom span{
+	line-height:20px;
+}
+.browser_box{
+	width:82px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	color:#a5a5a5;
+	background-color:#e5e5e5;
+	border-radius:2px;
+	margin-right:20px;
+	font-size:14px;
+}

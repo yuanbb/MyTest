@@ -1,0 +1,39 @@
+.special_top_menu{
+	height:28px;
+}
+.special_top_menu li{
+	margin:0 10px;
+	display:inline-block;
+}
+.special_top_menu li a{
+	display:block;
+	height:28px;
+	line-height:28px;
+	padding:0 20px;
+	background-color:#ededed;
+	color:#5e5e5e;
+	border-radius:2px;
+}
+.special_top_menu li a:hover{
+	background-color:#5cbdf4;
+	color:#fff;
+}
+.special_top_menu_over{
+	height:28px;
+	line-height:28px;
+	padding:0 20px;
+	border-radius:2px;
+	background-color:#5cbdf4;
+	color:#fff;
+	position:relative;
+	z-index:1;
+}
+.special_top_menu_arrow{
+	width:17px;
+	height:7px;
+	background:url(../../../images/special/supersive/special_top_menu_arrow.png) no-repeat;
+	position:absolute;
+	left:50%;
+	top:28px;
+	margin:0 0 0 -8px;
+}

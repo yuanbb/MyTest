@@ -1,0 +1,41 @@
+body{
+	font-size: 14px;
+}
+.btn-default {
+    background-color: #fff;
+}
+.btn-group, .btn-group-vertical {
+    vertical-align: top;
+}
+.float-condition-div{
+	position: absolute;
+	border:1px solid #e8e8e8;
+	height: 40px;
+	top: 5px;
+	left: 50%;
+}
+.float-button-div{
+	position: absolute;
+    height: 36px;
+    top: 5px;
+    right: 11px;
+    width: 36px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 4px 0px #C0BDBD;
+    cursor: pointer;
+    padding: 6px;
+    z-index: 999999999;
+}
+.float-button-childiren{
+	position: absolute;
+	top: 0px;
+	left: -33px;
+    width: 30px;
+    height: 90px;
+	background-color: #fff;
+	display: none;
+}
+.button-content-div{
+	padding: 3px;
+}

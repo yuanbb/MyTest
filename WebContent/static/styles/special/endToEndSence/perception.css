@@ -1,0 +1,51 @@
+/*--榜单样式--*/
+.hot_list_row_1,.hot_list_row_2{
+	width:230px;
+	display:block;
+	line-height:44px;
+}
+.hot_list_row_1{
+	background:#f6f7fb;
+}
+.hot_list_row_2{
+	background:#fff;
+}
+.hot_list_row_1:hover,.hot_list_row_2:hover{
+	background-color:#eff9fe;
+}
+.hot_list_row_1 td img,.hot_list_row_2 td img{
+	margin:4px 10px 0 10px;
+}
+.ico_num{
+	display:inline-block;
+	text-align:center;
+	width:18px;
+	color:#7a838b;
+	height:18px;
+	line-height:18px;
+	vertical-align:middle;
+}
+.ico_top{
+	display:inline-block;
+	text-align:center;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	background:url(../../../images/default/ico.png) no-repeat -95px -366px;
+}
+.ico_down{
+	display:inline-block;
+	text-align:center;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	background:url(../../../images/default/ico.png) no-repeat -132px -366px;
+}
+.ico_line{
+	display:inline-block;
+	text-align:center;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	background:url(../../../images/default/ico_line.png) no-repeat;
+}

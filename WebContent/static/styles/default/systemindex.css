@@ -1,0 +1,223 @@
+.Apadding{
+	padding:0 10px;
+}
+.Arrowpre{
+	width:18px;
+	height:36px;
+	background:url(../../images/default/Pre_next.png) -18px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrowpre_on{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) -36px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrowpre_no{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) left top no-repeat;
+}
+.Arrownext{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) -72px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrownext_on{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) -54px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrownext_no{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) right top no-repeat;
+}
+.Indicator a{
+	height:115px;
+	width:153px;
+	text-decoration:none;
+	text-align:center;
+	background:#f5f5f5;
+	border:1px solid #eee;
+	color:#000;
+	display:block;
+}
+.Indicator a:hover{
+	height:115px
+	width:153px;
+	text-decoration:none;
+	text-align:center;
+	background:#ecf6ff;
+	border:1px solid #daedff;
+	display:block;
+}
+
+.Indicatortitle{
+	width:120px;
+	height : 30px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	overflow:hidden;
+	margin:3px auto 3px;
+}
+.Indicatorbottom{
+	margin:3px auto;
+}
+.Indicatorbottom td{
+	padding:2px 0;
+}
+.Mapback2{
+	background:url(../../images/default/Mapback2.jpg) repeat;
+}
+.Rankings td{
+	padding:5px;
+}
+.Rankings_top{
+	background:#f7f7f7;
+	border-top:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+	font-size:14px;
+	line-height:24px;
+	font-weight:bold;
+	padding:5px;
+}
+.Rankings_number{
+	width:16px;
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	background:#ecf6ff;
+	border:1px solid #d9edff;
+}
+.Mywork{
+	margin:0 auto;
+}
+.Mywork td{
+	padding:8px;
+}
+.Myworktd1{
+	border-right:1px dotted #666;
+	border-bottom:1px dotted #666;
+}
+.Myworktd2{
+	border-bottom:1px dotted #666;
+}
+.Myworktd3{
+	border-right:1px dotted #666;
+}
+.Mywork td a{
+	color:#ff6c00;
+	font-weight:bold;
+}
+.Mywork td a:hover{
+	color:#000;
+}
+.Special td{
+	padding:8px 0 0;
+}
+.Speciallink1{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink1_on{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink2{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -127px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink2_on{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -127px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink3{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -254px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink3_on{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -254px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink4{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -381px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink4_on{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -381px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink5{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -508px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink5_on{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) -508px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink6{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Speciallink6_on{
+	width:127px;
+	height:33px;
+	background:url(../../images/default/Speciallink.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Formwindow{
+	width:33px;
+	height:33px;
+	background:url(../../images/default/Formwindow.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Formwindow_on{
+	width:33px;
+	height:33px;
+	background:url(../../images/default/Formwindow.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}

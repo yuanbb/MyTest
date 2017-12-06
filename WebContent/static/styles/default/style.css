@@ -1,0 +1,42 @@
+/*-------------------------------------
+author:		zhengyh
+des: 		inas common jiantou icon define
+-------------------------------------*/
+.Arrowpre{
+	width:18px;
+	height:36px;
+	background:url(../../images/default/Pre_next.png) -18px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrowpre_on{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) -36px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrowpre_no{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) left top no-repeat;
+}
+.Arrownext{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) -72px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrownext_on{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) -54px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Arrownext_no{
+	width:18px;
+	height:36px;
+	background:url(../../images/default//Pre_next.png) right top no-repeat;
+}

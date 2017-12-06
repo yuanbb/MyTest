@@ -1,0 +1,406 @@
+/*----------begin---------------*/
+/*---------------------个性化新增的样式-------------------------------------------------*/
+/*----全局图标----------------------------------*/
+.ecom_icons {/*---全局图标颜色和大小--*/
+	font-size: 22px !important;
+}
+.ecom_icons_small {/*---全局图标颜色和大小--*/
+	font-size: 20px !important;
+}
+i.cursorPointer {
+	cursor:pointer !important;
+	margin-right:5px;
+}
+i.cursor {
+	cursor:pointer !important;
+	margin-right:5px;
+}
+/*----My97-时间控件----------------------------------*/
+.Wdate {
+  line-height:normal;
+  height: 34px !important;
+  padding: 4px !important;
+  border: 1px solid #dddddd !important;
+  border-radius: 2px !important;
+}
+
+/*----自定义样式----------------------------------*/
+.screen_row{
+	font-size:14px;
+/* 	border-bottom:1px dashed #ccc; */
+	padding:10px 0;
+/* 	line-height:34px; */
+}
+
+.clumn_topTab span{
+	display:block;
+	padding:0px 15px;
+	color:#484848;
+}
+
+/*-----------end----------------*/
+html .x-body{ font-family:'Microsoft YaHei','黑体', sans-serif;}
+body{ margin:0; padding:0px 0; font-family:'Microsoft YaHei','黑体', sans-serif; font-size:13px; color:#484848; background-color:#edf2f8;}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#484848;
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+	star:expression(this.onFocus=this.blur());
+}
+h1,h2,h3{
+	margin:0;
+	padding:0;
+}
+b{
+	font-weight:600;
+}
+p{
+	margin:0;
+	padding:0;
+}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both; padding:0;}
+.c_red{ color:red;}
+.c_green{ color:#00ce10;}
+.c_blue{ color:#0085d0;}
+.clumn_box{
+	background-color:#fff;
+	border:none;
+	padding:0 10px 10px;
+}
+.clumn_box_top{
+	border-bottom:1px solid #ddd;
+	height:40px;
+	line-height:34px;
+	padding: 3px 0px;
+}
+.clumn_box_top_icon{
+	width:3px;
+	height:16px;
+	display:block;
+	background-color:#0085d0;
+	margin:8px 8px 0;
+}
+.clumn_box h3{
+	color:#484848;
+	font-size:14px;
+	font-weight:600;
+	line-height:34px;
+}
+.time_infor{
+	display:block;
+	margin:0 0 0 20px;
+	color:#999;
+	font-size:12px;
+}
+.clumn_topTab{
+	height:36px;
+	line-height:36px;
+	font-size:14px;
+	border-bottom:1px solid #ddd;
+	padding:0 0 3px 0;
+}
+.clumn_topTab a{
+	display:block;
+	padding:0px 15px;
+	color:#999;
+}
+.clumn_topTab a:hover{
+	border-bottom:3px solid #5cbdf4;
+	color:#484848;
+}
+.clumn_topTab_over{
+	padding:0px 15px;
+	border-bottom:3px solid #5cbdf4;
+	font-weight:600;
+	color:#484848;
+	font-size:14px;
+}
+.clumn_box_content{
+	margin:8px 0;
+}
+.clumn_content_arrowright{
+	width:12px;
+	height:47px;
+	background:url(../../images/default/common/clumn_content_arrow.png) left top no-repeat;
+	background-color:#fafafa;
+	border-radius:2px 0 0 2px;
+}
+.clumn_content_arrowright:hover{
+	background:url(../../images/default/common/clumn_content_arrow.png) -12px top no-repeat;
+	background-color:#fafafa;
+	border-radius:2px 0 0 2px;
+}
+.clumn_content_arrowleft{
+	width:12px;
+	height:47px;
+	background:url(../../images/default/common/clumn_content_arrow.png) -36px top no-repeat;
+	background-color:#fafafa;
+	border-radius:2px 0 0 2px;
+}
+.clumn_content_arrowleft:hover{
+	background:url(../../images/default/common/clumn_content_arrow.png) -24px top no-repeat;
+	background-color:#fafafa;
+	border-radius:2px 0 0 2px;
+}
+.leftlist li{
+	width:230px;
+	padding:5px 0;
+}
+.leftlist li p{
+	margin:5px 0 0 20px;
+	line-height:20px;
+	color:#757575;
+}
+.leftlist_icon{
+	width:11px;
+	height:12px;
+	background:url(../../images/default/common/leftlist_icon.png) no-repeat;
+	display:block;
+	margin:2px 5px;
+}
+.leftlist_text{
+	width:207px;
+	line-height:20px;
+}
+.form_table td{
+	padding:7px 5px;
+}
+.form_table td b{
+	font-size:14px;
+}
+.form_table_title{
+	background-color:#f2f2f2;
+}
+.form_td{
+	border-bottom:1px dotted #d5d5d5;
+}
+/* .checkbox_style{
+	vertical-align:middle;
+	margin:-2px 7px 0;
+}
+.radiobox_style{
+	vertical-align:middle;
+	margin:2px 7px 0;
+} */
+
+.indicator_back{
+	padding:10px 0 0;
+}
+.indicator_back h1{
+	font-size:30px;
+	display:inline-block;
+	padding:2px 0 5px;
+}
+.indicator_back h2{
+	font-size:22px;
+	display:inline-block;
+	padding:11px 0 5px;
+}
+.indicator_back b{
+	font-size:14px;
+}
+.indicator_back b,.indicator_back h1,.indicator_back h2,.indicator_back font{
+	color:#fff;
+}
+.indicator_back span{
+	color:#484848;
+}
+.takeup{
+	width:15px;
+	height:12px;
+	background:url(../../images/default/common/takeup.png) no-repeat;
+}
+.takedown{
+	width:15px;
+	height:12px;
+	background:url(../../images/default/common/takedown.png) no-repeat;
+}
+.more{
+	color:#888;
+}
+.more:hover{
+	color:#0085d0;
+}
+.pages{
+	margin:10px auto;
+}
+.pages a{
+	background:#f6f7fb;
+	color:#666;
+	padding:6px 12px;
+	border-radius:2px;
+}
+.pages .active{
+	background:#5cbdf4;
+	color:#fff;
+	padding:6px 12px;
+}
+.pages a:hover{
+	background:#5cbdf4;
+	color:#fff;
+	padding:6px 12px;
+}
+.quota_arrow_up{
+	width:11px;
+	height:16px;
+	background:url(../../images/default/common/quota_arrow_up.png) no-repeat;
+	margin:1px 0 0 5px;
+}
+.quota_arrow_down{
+	width:11px;
+	height:16px;
+	background:url(../../images/default/common/quota_arrow_down.png) no-repeat;
+	margin:1px 0 0 5px;
+}
+.clumn_arrowup{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/common/clumn_box_arrowup.png) no-repeat;
+	margin:8px 5px 0;
+}
+.clumn_arrowup_over{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/common/clumn_box_arrowup_over.png) no-repeat;
+	margin:8px 5px 0;
+}
+.clumn_arrowdown{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/common/clumn_box_arrowdown.png) no-repeat;
+	margin:8px 5px 0;
+}
+.clumn_arrowdown_over{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/common/clumn_box_arrowdown_over.png) no-repeat;
+	margin:8px 5px 0;
+}
+.bottom_take_all{
+	width:72px;
+	display:block;
+	margin:0 auto;
+	color:#aaa;
+}
+.bottom_take_all:hover{
+	color:#0085d0;
+}
+.bottom_take_all i{
+	margin:4px 0 0 5px;
+}
+/*---------------------色块------------------------------------------------*/
+.back_color00{
+	background-color:#d5d5d5;
+}
+.back_color01{
+	background-color:#5db75d;
+}
+.back_color02{
+	background-color:#fcb247;
+}
+.back_color03{
+	background-color:#85c3fc;
+}
+.back_color04{
+	background-color:#f6803a;
+}
+.back_color05{
+	background-color:#ba8bd1;
+}
+.back_color06{
+	background-color:#98b652;
+}
+.back_color07{
+	background-color:#e6d02f;
+}
+.back_color08{
+	background-color:#54cfd0;
+}
+.back_color09{
+	background-color:#f67b98;
+}
+.back_color10{
+	background-color:#7e9fcc;
+}
+.back_color11{
+	background-color:#92cf68;
+}
+.back_color12{
+	background-color:#fcc954;
+}
+.back_color13{
+	background-color:#fa6567;
+}
+.back_color14{
+	background-color:#7e9fcc;
+}
+.bc00_bottom_arrow{
+	width:16px;
+	height:8px;
+	background:url(../../images/common/bc01_bottom_arrow.png) no-repeat;
+}
+.bc01_bottom_arrow{
+	width:16px;
+	height:8px;
+	background:url(../../images/default/common/bc01_bottom_arrow.png) no-repeat;
+}
+.bc04_bottom_arrow{
+	width:16px;
+	height:8px;
+	background:url(../../images/default/common/bc04_bottom_arrow.png) no-repeat;
+}
+.bc05_bottom_arrow{
+	width:16px;
+	height:8px;
+	background:url(../../images/default/common/bc05_bottom_arrow.png) no-repeat;
+}
+.bc06_bottom_arrow{
+	width:16px;
+	height:8px;
+	background:url(../../images/default/common/bc06_bottom_arrow.png) no-repeat;
+}
+.bc07_bottom_arrow{
+	width:16px;
+	height:8px;
+	background:url(../../images/default/common/bc07_bottom_arrow.png) no-repeat;
+}
+/*---------------------------0617---------------------------------------------*/
+.i_good{
+	width:28px;
+	height:24px;
+	background:url(../../images/default/common/good-bed.png) -12px -12px no-repeat;
+}
+.i_bad{
+	width:28px;
+	height:24px;
+	background:url(../../images/default/common/good-bed.png) -59px -12px no-repeat;
+}
+
+/*--------------------------------控制EXT控件安微样式调整 ------------------------------------------------*/
+
+.x-panel-body-default {
+  font-size: 13px;
+ }
+ 
+ .condition-chooser .hidemulti .sel {
+	border-radius: 2px;
+}
+
+ .condition-chooser {
+  padding: 15px 0px 15px 0px;  
+ } 
+ 
+ 
+/*  .condition-chooser .inner-cnt { */
+/*   height: 30px; */
+/*  } */

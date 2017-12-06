@@ -1,0 +1,135 @@
+/* rightPopup */
+#rightPopup{
+	position: absolute;
+    width: 400px;
+    height: 600px;
+    bottom: 0px;
+    right: 0px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 2px 2px #666;
+    z-index: 99;
+}
+#rightPopup .content{
+	overflow:auto;
+	margin:0 5px;
+	height: 551px;
+}
+#rightPopup .title{
+	position:relative;
+	height:27px;
+	margin:5px;
+}
+#rightPopup .title h2{
+	font-size:14px;
+	height:27px;
+	line-height:24px;
+	border-bottom:1px solid #A1B4B0;
+}
+#rightPopup .title div{
+	position:absolute;
+	height:19px;
+	top:2px;
+	right:0;
+}
+#rightPopup .title a,a.open{
+	float:left;
+	width:21px;
+	height:19px;
+	display:block;
+	margin-left:5px;
+	background:url(img/tool.png) no-repeat;
+}
+a.open{
+	position:absolute;
+	top:10px;
+	left:96%;
+	margin-left:-10px;
+	background-position:0 0;
+}
+a.open:hover{
+	background-position:0 -29px;
+}
+#rightPopup .title a.min{
+	background-position:-29px 0;
+}
+#rightPopup .title a.min:hover{
+	background-position:-29px -29px;
+}
+#rightPopup .title a.max{
+	background-position:-60px 0;
+}
+#rightPopup .title a.max:hover{
+	background-position:-60px -29px;
+}
+#rightPopup .title a.revert{
+	background-position:-149px 0;
+	display:none;
+}
+#rightPopup .title a.revert:hover{
+	background-position:-149px -29px;
+}
+#rightPopup .title a.close{
+	background-position:-89px 0;
+}
+#rightPopup .title a.close:hover{
+	background-position:-89px -29px;
+}
+#rightPopup .resizeBR{
+	position:absolute;
+	width:14px;
+	height:14px;
+	right:0;
+	bottom:0;
+	overflow:hidden;
+	cursor:nw-resize;
+	background:url(img/resize.png) no-repeat;
+}
+#rightPopup .resizeL,#rightPopup .resizeT,#rightPopup .resizeR,#rightPopup .resizeB,#rightPopup .resizeLT,#rightPopup .resizeTR,#rightPopup .resizeLB{
+	position:absolute;
+	background:#000;
+	overflow:hidden;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+#rightPopup .resizeL,#rightPopup .resizeR{
+	top:0;
+	width:5px;
+	height:100%;
+	cursor:w-resize;
+}
+#rightPopup .resizeR{
+	right:0;
+}
+#rightPopup .resizeT,#rightPopup .resizeB{
+	width:100%;
+	height:5px;
+	cursor:n-resize;
+}
+#rightPopup .resizeT{
+	top:0;
+}
+#rightPopup .resizeB{
+	bottom:0;
+}
+#rightPopup .resizeLT,#rightPopup .resizeTR,#rightPopup .resizeLB{
+	width:8px;
+	height:8px;
+	background:#FF0;
+}
+#rightPopup .resizeLT{
+	top:0;
+	left:0;
+	cursor:nw-resize;
+}
+#rightPopup .resizeTR{
+	top:0;
+	right:0;
+	cursor:ne-resize;
+}
+#rightPopup .resizeLB{
+	left:0;
+	bottom:0;
+	cursor:ne-resize;
+}
+

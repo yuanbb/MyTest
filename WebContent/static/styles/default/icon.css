@@ -1,0 +1,66 @@
+/*-------------------------------------
+author:		liyn
+des: 		inas common button icon define
+-------------------------------------*/
+.icon-index_desc{
+	background:url('../../images/default/index_desc.png') no-repeat;	
+}
+.icon-index_desc_cust{
+	width:16px;
+	height:16px;
+	background:url(../../images/default/index_desc.png) no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+}
+.icon-index_desc_cust:hover{
+	width:16px;
+	height:16px;
+	background:url(../../images/default/index_desc.png) no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+}
+.icon-chart_area{
+	background:url('../../images/default/chart_area.png') no-repeat;	
+}
+.icon-chart_pie{
+	background:url('../../images/default/chart_pie.png') no-repeat;	
+}
+.icon-chart_bar{
+	background:url('../../images/default/chart_bar.png') no-repeat;	
+}
+.icon-chart_line{
+	background:url('../../images/default/chart_line.png') no-repeat;	
+}
+.icon-chart_photo{
+	background:url('../../images/default/chart_photo.png') no-repeat;	
+}
+.icon-chart{
+	background:url('../../images/default/chart.png') no-repeat;	
+}
+.icon-check{
+	background:url('../../images/default/check.png') no-repeat;	
+}
+.icon-chart_data_list{
+	background:url('../../images/default/data_list.png') no-repeat;	
+}
+.icon-chart_data_list_num{
+	background:url('../../images/default/data_list_num.png') no-repeat;	
+}
+.icon-exp_csv{
+	background:url('../../images/default/exp_csv.png') no-repeat;	
+}
+.icon-exp_excel{
+	background:url('../../images/default/exp_excel.png') no-repeat;	
+}
+.icon-exp_pdp{
+	background:url('../../images/default/exp_pdp.png') no-repeat;	
+}
+.icon-exp_text{
+	background:url('../../images/default/exp_text.png') no-repeat;	
+}
+.icon-exp_word{
+	background:url('../../images/default/exp_word.png') no-repeat;	
+}
+.icon-exp_xml{
+	background:url('../../images/default/exp_xml.png') no-repeat;	
+}

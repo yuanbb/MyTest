@@ -1,0 +1,123 @@
+.res-menu-box{
+	position: relative;
+	padding: 3px 0;
+	min-height: 570px;
+}
+.res-menu-box .inner{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.res-menu-box .inner li{
+    width: 100%;
+    padding: 3px 0;
+}
+.res-menu-box{
+	position: relative;
+	padding: 3px 0;
+	min-height: 570px;
+}
+.res-menu-box .inner{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.res-menu-box .inner li{
+    width: 100%;
+    padding: 3px 0;
+}
+.menu-tab-box .tab-main{
+    width: 100%;
+    height: 32px;
+}
+.tab-inner{
+    display: inline-block;
+    width: 140px;
+    height: 32px;
+    padding: 4px 0px;
+    color: #fff;
+    background: url(images/res-area-list-title01.svg) no-repeat 0 0;
+    cursor: pointer;
+}
+.menu-tab-box .tab-add{
+    display: block;
+    width: 100%;
+    height: 2px;
+}
+.menu-tab-box:nth-child(3n+1) .tab-inner{background: url(images/res-area-list-title01.svg) no-repeat 0 0;float:left;}
+.menu-tab-box:nth-child(3n+2) .tab-inner{background: url(images/res-area-list-title02.svg) no-repeat 0 0;float:left;}
+.menu-tab-box:nth-child(3n+3) .tab-inner{background: url(images/res-area-list-title03.svg) no-repeat 0 0;float:left}
+.menu-tab-box:nth-child(3n+1) .tab-add{background-color: #fcb247;}
+.menu-tab-box:nth-child(3n+2) .tab-add{background-color: #92cf68;}
+.menu-tab-box:nth-child(3n+3) .tab-add{background-color: #85c3fc;}
+
+.tab-inner i{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    vertical-align: middle;
+    float: left;
+    margin-left: 15px;
+}
+.tab-inner b{
+    display: inline-block;
+    padding: 2px 0;
+    font-style: normal;
+    vertical-align: middle;
+    color: #fff;
+    float: left;
+}
+.menu-tab-box:nth-child(1) .tab-inner i{background: url(images/menu-tab.png) 0 0 no-repeat;}
+.menu-tab-box:nth-child(2) .tab-inner i{background: url(images/menu-tab.png) 0 -24px no-repeat;}
+.menu-tab-box:nth-child(3) .tab-inner i{background: url(images/menu-tab.png) 0 -48px no-repeat;}
+.menu-tab-box:nth-child(4) .tab-inner i{background: url(images/menu-tab.png) 0 -72px no-repeat;}
+.menu-tab-box:nth-child(5) .tab-inner i{background: url(images/menu-tab.png) 0 -96px no-repeat;}
+.menu-tab-box:nth-child(6) .tab-inner i{background: url(images/menu-tab.png) 0 -120px no-repeat;}
+
+.detail-box{
+	padding: 0 10px;
+	width: 100%;
+	overflow: hidden;
+}
+.detail-main{
+	width: 100%;
+	margin-top: 10px;
+}
+.detail-main>tbody>tr>td{
+	text-align: left;
+	padding: 5px 0 5px 15px;
+}
+.detail-main>tbody>tr>td:last-child{
+	padding-right: 20px;
+}
+.detail-main>tbody>tr>td span{
+	font-size: 15px;
+	font-weight: bold;
+}
+#menu_1 td.chartFocus{
+	width: 150px;
+}
+#menu_1 td.countFocus{
+	text-align: right;
+}
+.detail-main .data-value{
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 3px;
+    font-family: "DISPLAY FREE TFB";
+    font-style:normal; 
+    font-weight: 600;
+}
+.detail-main tr td .fa{
+    font-size: 18px;
+    color: #0085d0;
+}
+.detail-main tr .font-active{
+    color: #0085d0;
+    text-decoration: underline;
+}
+
+.chartFocus,.countFocus,.markerFocus{
+	cursor: pointer;
+}

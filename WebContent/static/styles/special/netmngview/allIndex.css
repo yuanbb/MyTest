@@ -1,0 +1,147 @@
+.screen_row ul li{
+	padding:0 10px;
+}
+.screen_row{
+	font-size:14px;
+	border-bottom:1px dotted #9f9f9f;
+	padding:10px 0;
+}
+.screen_row b{
+	padding:4px 8px;
+	color:#848484;
+	font-weight:lighter;
+}
+.screen_row ul li a{
+	display:block;
+	padding:4px 8px;
+	color:#000;
+}
+.screen_row ul li a:hover{
+	color:#fff;
+	background-color:#5cbdf4;
+}
+.screen_bottom{
+	height:22px;
+	line-height:22px;
+	display:block;
+	font-size:12px;
+	color:#585858;
+	background-color:#f5f5f5;
+	padding:0 5px 0 8px;
+}
+.screen_bottom i{
+	display:block;
+	margin:6px 0 0 3px;
+}
+.checkbox_content span{
+	line-height:24px;
+}
+.indicator_content h3{
+	padding:5px 0;
+	color:#484848;
+}
+.indicator_back{
+	padding:15px 0;
+	position:relative;
+	z-index:1;
+}
+.indicator_back table td{
+	padding:2px 0;
+}
+.indicator_about{
+	width:13px;
+	height:13px;
+	background:url(../../../images/default/common/about.png) no-repeat;
+	position:absolute;
+	top:5px;
+	right:5px;
+	z-index:3;
+}
+.indicator_details_top{
+	border-bottom:1px solid #ddd;
+	padding:0 10px 5px;
+}
+.indicator_details_top h3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+}
+.indicator_details_top h1 {
+  font-size: 48px;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  line-height: 54px;
+}
+.i_d_top_title_right{
+	height:22px;
+	border-radius:2px;
+	background-color:#d3dce6;
+	padding:0 10px;
+	line-height:22px;
+	color:#fff;
+	position:relative;
+	left:20px;
+	top:3px;
+	z-index:1;
+}
+.i_d_top_title_right_arrow{
+	width:7px;
+	height:9px;
+	background:url(../../../images/default/common/i_d_top_title_right_arrow.png) no-repeat;
+	position:absolute;
+	left:-7px;
+	top:50%;
+	margin:-4px 0 0 0;
+}
+.i_d_top_center{
+	font-size:14px;
+	line-height:26px;
+	margin:0px 0 0 80px;
+}
+.i_d_top_center span{
+	color:#888;
+}
+.indicator_details_infor{
+	padding:10px;
+	color:#666;
+	font-size:12px;
+	line-height:20px;
+}
+
+/* ------------------0617--------------- */
+.indicator_back_New{
+  height: 100px;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: left;
+  margin: 10px 0 0;
+}
+.indicator_back_New b{
+  display: inline-block;
+  line-height: 16px;
+  margin: 10px 0 0;
+}
+.indicator_value {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  z-index: 2;
+}
+.indicator_value h1 {
+  display: inline-block;
+}
+.value_right {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  z-index: 2;
+  color: #484848;
+}
+.indicator_back_New i {
+  position: absolute;
+  left: 125px;
+  top: 42px;
+  z-index: 3;
+}

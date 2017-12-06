@@ -1,0 +1,53 @@
+.Con_box{
+	background:#FFF;
+	padding:10px;
+	margin:10px 0 0;
+}
+.Con_box_table{
+	border-left:1px solid #e9eaef;
+}
+.Con_box_table th,.Con_box_table td{
+	line-height:30px;
+	padding:0 10px;
+	border-bottom:1px solid #e9eaef;
+	border-right:1px solid #e9eaef;
+}
+.Con_box_table th{
+	font-size:14px;
+	background:#d7e3f1;
+	color:#383838;
+	font-weight:lighter;
+}
+.Tr_back_1{
+	background:#fff;
+}
+.Tr_back_2{
+	background:#f6f7fb;
+}
+.Con_box_table_2{
+	background:#d7e3f1;
+	font-size:14px;
+	color:#383838;
+	border-left:1px solid #e9eaef;
+}
+.Con_box_table_2 th,.Con_box_table_2 td{
+	line-height:30px;
+	padding:0;
+}
+.Td_bottom{
+	border-bottom:1px solid #e9eaef;
+}
+.Td_right{
+	border-right:1px solid #e9eaef;
+}
+.Con_box_table_3{
+	background:#f6f7fb;
+	color:#383838;
+	border-left:1px solid #e9eaef;
+}
+.Con_box_table_3 td{
+	padding:5px 10px;
+	line-height:18px;
+	border-bottom:1px solid #e9eaef;
+	border-right:1px solid #e9eaef;
+}

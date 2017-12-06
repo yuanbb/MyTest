@@ -1,0 +1,32 @@
+.popup-head-wx {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: left;
+    padding: 0 0 5px 10px;
+}    
+.sweet-deal-label {
+	background: none; color: #ff9609; font-size: 14px; border-radius: none; font-weight: bold;
+}
+.leaflet-marker-icon-wrapper {
+    position: absolute
+}
+
+.leaflet-marker-iconlabel {
+   /*  background: #fff; */
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    -moz-box-shadow: 0 3px 10px #888;
+    -webkit-box-shadow: 0 3px 14px #999;
+    /* box-shadow: 0 3px 10px #888; */
+    display: block;
+   /*  font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif; */
+    padding: 4px 6px;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}

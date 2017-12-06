@@ -1,0 +1,270 @@
+.body_div{
+	margin:0;
+	padding:0;
+	min-width:1100px;
+}
+.routine_right_list_div{
+	min-width:700px;
+	/* max-width:75%;
+	width:75%; */
+	width:auto;
+	overflow:hidden;
+}
+.routine_left_list_div{
+	min-width:320px;
+	width:320px;
+	/* width:24%; */
+	overflow:hidden;
+}
+.SelectStyle_1{
+	background:#FFF;
+	border:1px solid #ccc;
+	margin:0px 0px 0px 0px;
+	padding:2px 2px 3px 2px;
+}
+.Accessory_close{
+	width:16px;
+	height:16px;
+	background:url(../../../images/themes_js/GeometricICONS.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+/*  ------------cong style_all qian yi guo lai de----------------------*/
+.ContentLeftMenu_routine{
+	width:33px;
+	height:100%;
+	background:url(../../../images/themes_js/neptune/common/ContentLeftMenu.jpg) repeat-y;
+	overflow:hidden;
+}
+.ContentLeftMenu_routine ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.ContentLeftMenu_routine ul li{
+	
+}
+.ContentLeftMenu_routine ul li div{
+	width:31px;
+	display:block;
+	color:#000;
+	text-decoration:none;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+.ContentLeftMenu_routine ul li div:hover{
+	width:31px;
+	
+	display:block;
+	color:#000;
+	font-weight:bold;
+	background:#ffffc0;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+.ContentLeftMenu_routine_ul_li_div_visited{
+	width:31px;
+	display:block;
+	color:#000;
+	font-weight:bold;
+	background:#fff;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+
+.Toptag_editReport{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/edit_save_return.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_editReport_on{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/edit_save_return.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_saveReport{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/edit_save_return.png) -22px top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_saveReport_on{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/edit_save_return.png) -22px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_returnReport{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/edit_save_return.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_returnReport_on{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/edit_save_return.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_getHelp{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/helpicon.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_getHelp_on{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/helpicon.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+
+.Toptag_getDownload{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/download.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_getDownload_on{
+	width:22px;
+	height:22px;
+	background:url(../../../images/themes_js/download.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.ReportListrow1{
+	/* width:255px; */
+	width:100%;
+	height:24px;
+	line-height:24px;
+}
+.ReportListrow2{
+	/* width:239px; */
+	width:95%;
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 16px;
+}
+.ReportListrow3{
+	/* width:223px; */
+	width:90%;
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 32px;
+}
+.ReportListbox_div{
+	width:255px;
+	height:24px;
+	color:#000;
+	text-decoration:none;
+	display:block;
+}
+.ReportListbox_div_hover{
+	width:255px;
+	height:24px;
+	color:#2178c1;
+	background:#e1f2dd;
+	display:block;
+}
+.ReportListbox_div_visited{
+	width:255px;
+	height:24px;
+	color:#2178c1;
+	background:#e1f2ff;
+	display:block;
+}
+.Openup{
+	width:11px;
+	height:11px;
+	background:url(../../../images/themes_js/neptune/common/Open_Back.png) left top no-repeat;
+	margin:5px 5px 0 0;
+	display:inline-block;
+}
+.Drawback{
+	width:11px;
+	height:11px;
+	background:url(../../../images/themes_js/neptune/common/Open_Back.png) left bottom no-repeat;
+	margin:5px 5px 0 0;
+	display:inline-block;
+}
+
+.Listbox_report{
+	padding:5px 3px 5px 5px;
+	border:1px solid #bed9f4;
+	background:url(../../../images/themes_js/neptune/common/Listboxback.jpg) repeat-x;
+	line-height:17px;
+	width:90%;
+	margin:4px 0 0 17px;
+}
+.Listbox_report_active{
+	padding:5px 0px 5px 5px;
+	border:3px solid #6aa3dd;
+	background:url(../../../images/themes_js/neptune/common/Listboxback.jpg) repeat-x;
+	line-height:17px;
+	width:90%;
+	margin:4px 0 0 17px;
+}
+.AiteIcon {
+    background: url("../../../images/themes_js/neptune/common/aite.png") no-repeat;
+    border: medium none;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+}
+.DataExamine {
+    background: url("../../../images/themes_js/DataExamine.png") left top no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+    margin:3px 0 0;
+}
+.DataExamine_on {
+    background: url("../../../images/themes_js/DataExamine.png") left bottom no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+    margin:3px 0 0;
+}
+.sendSheet {
+    background: url("../../../images/themes_js/sendSheet.png") left top no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+    margin:2px 0 0;
+}
+.sendSheet_on {
+    background: url("../../../images/themes_js/sendSheet.png") left bottom no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+    margin:2px 0 0;
+}

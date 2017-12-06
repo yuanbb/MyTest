@@ -1,0 +1,1 @@
+OpenLayers.Filter=OpenLayers.Class({initialize:function(a){OpenLayers.Util.extend(this,a)},destroy:function(){},evaluate:function(a){return true},clone:function(){return null},toString:function(){var a;if(OpenLayers.Format&&OpenLayers.Format.CQL){a=OpenLayers.Format.CQL.prototype.write(this)}else{a=Object.prototype.toString.call(this)}return a},CLASS_NAME:"OpenLayers.Filter"});

@@ -1,0 +1,71 @@
+.Leftside_banner1{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner1.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.Leftside_banner1_on{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner1.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.Leftside_banner2{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner2.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.Leftside_banner2_on{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner2.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.Leftside_banner3{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner3.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.Leftside_banner3_on{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner3.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.Leftside_banner4{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner4.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.Leftside_banner4_on{
+	width:260px;
+	height:83px;
+	background:url(../../images/themes_js/Leftside_banner4.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:3px 0 0;
+}
+.ColorLump{
+	width:11px;
+	height:11px;
+	border:1px solid #FFF;
+	margin:0 5px;
+	display:inline-block;
+}

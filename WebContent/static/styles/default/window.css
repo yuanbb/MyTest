@@ -1,0 +1,152 @@
+.Shade_back{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background:url(../../images/default/indiMng/Shade_back.png) repeat;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+.BoxStyle{
+	width:94%;
+	position:relative;
+	z-index:3;
+	border:1px solid #909090;
+	padding:0 5px;
+}
+.BoxTitle{
+	width:65px;
+	text-align:center;
+	font-weight:bold;
+	background:#FFF;
+	position:relative;
+	left:5px;
+	top:-6px;
+	z-index:4;
+}
+.Group{
+	width:16px;
+	height:16px;
+	background:url(../../images/default/indiMng/group.png) no-repeat;
+	margin:0 5px 0 0;
+	display:inline-block;
+}
+.File{
+	width:16px;
+	height:16px;
+	background:url(../../images/default/indiMng/file.png) no-repeat;
+	margin:0 5px 0 0;
+	display:inline-block;
+}
+.CheckboxStyle1{
+	vertical-align:middle;
+	margin:-1px 3px 0 5px;
+}
+.SetList{
+	margin:5px 0 0 6px;
+}
+.SetList ul{
+	margin:5px 0 0 20px;
+	padding:0;
+	list-style:none;
+}
+.SetList ul li{
+	padding:3px 0;
+}
+.SelectList{
+	margin:5px 0 0 6px;
+}
+.SelectList ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.SelectList ul li{
+	padding:3px 0;
+}
+.Turn_right{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/TurnLeftRight.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_right_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/TurnLeftRight.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_left{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/TurnLeftRight.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_left_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/TurnLeftRight.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_up{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) -24px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_up_on{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) -24px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_down{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) -48px top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_down_on{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) -48px bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_top{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_top_on{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_bottom{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Turn_bottom_on{
+	width:24px;
+	height:24px;
+	background:url(../../images/default/indiMng/TurnUpDown.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+

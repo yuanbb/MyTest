@@ -1,0 +1,94 @@
+.Commentsbg{
+	border:1px solid #ddd;
+	background:#f5f5f5;
+	margin:5px 0 0;
+	padding:8px 5px 10px;
+}
+.TextareaStyle{
+	background:#FFF;
+	border:1px solid #ccc;
+	padding:5px;
+}
+.Displaybox{
+	width:100%;
+	border-top:1px solid #ccc;
+	margin:5px 0;
+	position:relative;
+}
+.Display_Arrowup{
+	width:45px;
+	height:12px;
+	background:url(../../../images/themes_js/blue/common/Display_arrows.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+	position:absolute;
+	left:50%;
+	top:-1px;
+	margin:0 0 0 -23px;
+}
+.Display_Arrowup_on{
+	width:45px;
+	height:12px;
+	background:url(../../../images/themes_js/blue/common/Display_arrows.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	position:absolute;
+	left:50%;
+	top:-1px;
+	margin:0 0 0 -23px;
+}
+.Display_Arrowdown{
+	width:45px;
+	height:12px;
+	background:url(../../../images/themes_js/blue/common/Display_arrows.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	position:absolute;
+	left:50%;
+	top:-1px;
+	margin:0 0 0 -23px;
+}
+.Display_Arrowdown_on{
+	width:45px;
+	height:12px;
+	background:url(../../../images/themes_js/blue/common/Display_arrows.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	position:absolute;
+	left:50%;
+	top:-1px;
+	margin:0 0 0 -23px;
+}
+.InstructionList{
+	line-height:24px;
+}
+.InstructionList a{
+	margin:0;
+	color:#09F;
+}
+.Replybox{
+	margin:5px 0 0 36px;
+}
+.Astyle1{
+	text-decoration:none;
+	padding:0 10px;
+	border-left:1px solid #09F;
+}
+.TxtStyle5{
+	line-height:18px;
+}
+.Tablestyle{
+	margin:5px 0 0;
+}
+.Tablestyle td{
+	padding:5px 0;
+}
+.Check_box{
+	margin:0 10px 0 0;
+	display:inline-block;
+}
+.Rightnotice{
+	background:#fff;
+	border:1px solid #eee;
+	padding:10px;
+}

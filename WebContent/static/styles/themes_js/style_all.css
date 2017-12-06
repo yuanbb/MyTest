@@ -1,0 +1,453 @@
+body{ margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000;}
+
+.FL{ float:left;}
+.FR{ float:right;}
+.Clear{ clear:both;}
+
+.SidebarLeft{
+}
+.TxtStyle2{
+	margin:0 5px;
+	line-height:30px;
+	display:inline-block;
+}
+.TxtStyle3{
+	margin:0 5px;
+	line-height:30px;
+	display:inline-block;
+	font-size:22px;
+}
+.TxtStyle4{
+	color:#969696;
+}
+.Apadding{
+	padding:0 15px;
+}
+.Listbox a{
+	color:#000;
+	text-decoration:none;
+}
+.Listbox_active a{
+	color:#000;
+	text-decoration:none;
+}
+.Listbox td a{
+	color:#ff6c00;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.Listbox_active td a{
+	color:#ff6c00;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.Noticeicon{
+	width:20px;
+	height:20px;
+	background:url(../../images/themes_js/Icons.png) left top no-repeat;
+}
+.Fileicon{
+	width:20px;
+	height:20px;
+	background:url(../../images/themes_js/Icons.png) -20px top no-repeat;
+}
+.Listbox_title{
+	line-height:20px;
+}
+.Listbox_foot{
+	margin:0 0 0 4px;
+	line-height:20px;
+	color:#84898a;
+}
+
+
+.ContentLeftMenu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.ContentLeftMenu ul li a{
+	width:31px;
+	
+	display:block;
+	color:#000;
+	text-decoration:none;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+.ContentLeftMenu ul li a:hover{
+	width:31px;
+	
+	display:block;
+	color:#000;
+	font-weight:bold;
+	background:#fff;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+.ContentLeftMenu ul li a:visited{
+	width:31px;
+	
+	display:block;
+	color:#000;
+	font-weight:bold;
+	background:#fff;
+	margin:0 0 0 2px;
+	text-align:center;
+	padding:7px 0;
+}
+.SpanStyle1{
+	padding:13px 0 0;
+}
+.SpanStyle2{
+	padding:8px 0 0;
+}
+
+.Arrow_up{
+	width:20px;
+	height:20px;
+	background:url(../../images/themes_js/Arrow_updown.png) left top no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.Arrow_down{
+	width:20px;
+	height:20px;
+	background:url(../../images/themes_js/Arrow_updown.png) right top no-repeat;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.Bubbleicon1{
+	width:20px;
+	height:20px;
+	background:url(../../images/themes_js/Icons.png) -40px top no-repeat;
+	margin:1px 1px 0 0;
+	display:inline-block;
+}
+.Bubbleicon2{
+	width:20px;
+	height:20px;
+	background:url(../../images/themes_js/Icons.png) right top no-repeat;
+	margin:1px 1px 0 0;
+	display:inline-block;
+}
+
+.Bubbleicon3{
+	width:20px;
+	height:20px;
+	background:url(../../images/default/delete1.png) right top no-repeat;
+	margin:1px 1px 0 0;
+	display:inline-block;
+}
+
+.Toptabs_center a{
+	text-decoration:none;
+}
+.SelectStyle{
+	border:1px solid #ccc;
+	padding:2px;
+	height:21px;
+	line-height:27px;
+	margin:0;
+}
+.Radio_box{
+	margin:0 10px 0 0;
+	display:inline-block;
+}
+.RadioStyle{
+	vertical-align:middle;
+	margin:-3px 3px 0 5px;
+}
+
+.Noicon{
+	width:16px;
+	height:16px;
+	background:url(../../images/themes_js/GeometricICONS.png) left top no-repeat;
+}
+.Triangleicon{
+	width:16px;
+	height:16px;
+	background:url(../../images/themes_js/GeometricICONS.png) -16px top no-repeat;
+}
+.Circleicon{
+	width:16px;
+	height:16px;
+	background:url(../../images/themes_js/GeometricICONS.png) right top no-repeat;
+}
+.Accessory_close{
+	width:16px;
+	height:16px;
+	background:url(../../images/themes_js/GeometricICONS.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Spanstyle3{
+	line-height:17px;
+}
+
+.Formbox td a{
+	color:#06F;
+	text-decoration:none;
+}
+.Formbox td a:hover{
+	color:#ff6c00;
+}
+.Checkbox_box{
+	margin:0 0 10px 0;
+}
+.CheckboxStyle{
+	vertical-align:middle;
+	margin:-3px 3px 0 5px;
+}
+
+.MapLabels{
+	width:46px;
+	height:22px;
+	text-align:center;
+	line-height:22px;
+	color:#FFF;
+	margin:10px 0 0;
+}
+.MenuListbox{
+	width:254px;
+}
+.MenuListrow1{
+	width:255px;
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 10px;
+}
+.MenuListrow2{
+	width:239px;
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 26px;
+}
+.TopSearch{
+	padding:5px;
+	background:#f5f5f5;
+}
+.InputStyle1{
+	width:200px;
+	height:21px;
+	border:1px solid #ccc;
+	line-height:21px;
+	padding:0 4px;
+}
+.SearchBtn{
+	width:32px;
+	height:23px;
+	background:url(../../images/themes_js/SearchBtn.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.SearchBtn_on{
+	width:32px;
+	height:23px;
+	background:url(../../images/themes_js/SearchBtn.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+.Toptag_upload{
+	width:22px;
+	height:22px;
+	background:url(../../images/themes_js/upload.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_upload_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/themes_js/upload.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+
+.Toptag_delete{
+	width:22px;
+	height:22px;
+	background:url(../../images/themes_js/report_delete.png) right top no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+.Toptag_delete_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/themes_js/report_delete.png) right bottom no-repeat;
+	border:none;
+	cursor:pointer;
+	margin:2px 0 0;
+}
+
+.Contentbox p{
+	padding:0;
+	margin:0;
+}
+
+
+.Formbox1 td a{
+	color:#06F;
+	text-decoration:none;
+}
+.Formbox1 td a:hover{
+	color:#ff6c00;
+}
+.BtnBack_gray{
+	width:98px;
+	height:26px;
+	background:url(../../images/themes_js/BtnBack_gray.png) left top;
+	text-align:center;
+	line-height:26px;
+	cursor:pointer;
+	border:none;
+}
+.BtnBack_gray_on{
+	width:98px;
+	height:26px;
+	background:url(../../images/themes_js/BtnBack_gray.png) left bottom;
+	text-align:center;
+	line-height:26px;
+	cursor:pointer;
+	border:none;
+}
+.Seticon{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Seticon.png) left top no-repeat;
+	cursor:pointer;
+	border:none;
+}
+.Seticon_on{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Seticon.png) right top no-repeat;
+	cursor:pointer;
+	border:none;
+}
+.Formicon{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Formicon.png) left top no-repeat;
+	cursor:pointer;
+	border:none;
+}
+.Formicon_on{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Formicon.png) right top no-repeat;
+	cursor:pointer;
+	border:none;
+}
+
+.Formicon_white{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_othersicons.png) left top no-repeat;
+	border:none;
+	cursor:pointer;
+}
+.Formicon_white_on{
+	width:22px;
+	height:22px;
+	background:url(../../images/default/indiMng/Toptag_othersicons.png) left bottom no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+.Baricon_white {
+    background: url("../../images/default/indiMng/anychartBar.png") no-repeat scroll right top transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.Baricon_white_on {
+    background: url("../../images/default/indiMng/anychartBar.png") no-repeat scroll right bottom transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+
+.Refreshicon{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Refreshicon.png) left top no-repeat;
+	cursor:pointer;
+	border:none;
+}
+.Refreshicon_on{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Refreshicon.png) right top no-repeat;
+	cursor:pointer;
+	border:none;
+}
+.Excelicon{
+	width:16px;
+	height:16px;
+	background:url(../../images/themes_js/Excelicon.gif) no-repeat;
+}
+.Formbox1 td{
+	padding:3px;
+}
+.Group{
+	width:16px;
+	height:16px;
+	background:url(../../images/themes_js/group.png) no-repeat;
+	margin:0 5px 0 0;
+	display:inline-block;
+}
+.File{
+	width:16px;
+	height:16px;
+	background:url(../../images/themes_js/file.png) no-repeat;
+	margin:0 5px 0 0;
+	display:inline-block;
+}
+.Shade_back{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background:url(../../images/themes_js/Shade_back.png) repeat;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+.Linebox{
+	width:25px;
+	height:3px;
+	margin:4px 0 0;
+	display:inline-block;
+}
+.Smileicon{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Emoticon.png) right top no-repeat;
+	margin:0 0 0 7px;
+}
+.Cryicon{
+	width:24px;
+	height:24px;
+	background:url(../../images/themes_js/Emoticon.png) left top no-repeat;
+	margin:0 0 0 7px;
+}
+.LeftSideMenu{
+	width:100%;
+}
+.LeftSideMenu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.CheckboxStyle1{
+	vertical-align:middle;
+	margin:0px 3px 0 5px;
+}

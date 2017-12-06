@@ -1,0 +1,1 @@
+OpenLayers.Format.XLS=OpenLayers.Class(OpenLayers.Format.XML.VersionedOGC,{defaultVersion:"1.1.0",stringifyOutput:true,CLASS_NAME:"OpenLayers.Format.XLS"});
